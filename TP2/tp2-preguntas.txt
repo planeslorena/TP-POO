@@ -1,0 +1,18 @@
+1) Al ejecutar el comando tsc junto al nombre de un archivo ts, se compila el archivo y se genera un archivo de tipo javascript. Es decir traduce el codigo typescript en codigo javascript.
+
+2) Una clase se organiza de la siguiente manera:
+  - Variables internas: son los atributos de la clase.
+  - Constructor: es la funcion con la que se crea un objeto de la clase
+  - Metodos Publicos: son las funciones a partir de las cuales se interactua con un objeto
+  - Metodos Privados: son funciones que ayudan a la funcionalidad interna de la clase pero no son visibles desde fuera de la misma. Por ejemplo calculos auxiliares.
+
+3) No es correcto que un metodo auxiliar sea publico, ya que al usuario de la clase no le interesa como se calculan internamente las cosas. Son como funciones intermedias que ayudan a los metodos publicos a darle la información al usuario que necesita del objeto.
+
+4) Una interfaz define los metodos que una clase debe cumplir pero no los implementa. Es un contrato que la clase debe cumplir. 
+    Caracteristicas:
+        - Permite abstraccion absoluta, es decir, no permite implementar ninguno de sus metodos
+        - No se pueden instanciar objetos del tipo de la interfaz
+        - Una clase puede implementar mas de una interfaz
+        - No tiene modificadores de acceso, todos sus metodos son publicos
+        - No tiene constructor
+        - Se pueden definir variables, pero al ser todo publico no es recomendable

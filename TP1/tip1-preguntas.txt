@@ -1,0 +1,7 @@
+ 1) Al utilizar un lenguaje con tipos muchos de los errores pueden detectarse al momento de escribir el codigo, a diferencia de los lenguajes no tipados que se detectan al momento de la ejecución. Ademas hace que el codigo sea mas legible y entendible.
+
+ 2) Variables internas son los atributos definidos dentro de una clase, definen el estado de un objeto. Se llaman internas porque no pueden ser modificadas desde afuera, solo se accede a ellas a traves de los metodos definidos por esa clase.
+
+ 3) Composición: Cuando una clase mas compleja esta compuesta por una clase mas sencilla. Una clase tiene variables de tipo de otra clase.
+
+ 
